@@ -9,7 +9,7 @@ public class FirstDuplicateInArray {
         ArrayList<Integer> duplicateElements
                 = new ArrayList<>();
         int counter = 0;
-        int[] numbers = {2, 5, 6, 5, 8, 10};
+        int[] numbers = {2, 5, 6, 6, 5, 8, 10};
         for (int i = 0; i < numbers.length; i++) {
             counter++;
             for (int j = counter; j < numbers.length; j++) {
